@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+
+		body{background-color: #0303e5; background-image: url("pat1.png");background-repeat: repeat;;}
+		::-webkit-scrollbar { display: none; }
+		#logo{width: 200px; position:fixed;top: 30px; left: 70px;}
+		#copy{width: 150px; position: fixed;bottom: 10px; right: 50px;}
+		.box1{width: 980px;height: 650px; overflow: scroll;position: fixed;top: 140px;left: 90px;}
+		
+		.menu{border:none;border:0px;margin:0px;padding:0px;font: "sans-serif";font-size:18px;position: absolute;right: 50px;top: 140px;}
+		.menu ul{background: black;width: 220px; list-style:none;margin:0;padding:0;border: solid 2px white;}
+		.menu li{float:none;padding:0px;border-bottom: solid 2px white;height:80px;}
+		.menu li:last-child {border-bottom: none;}
+		.menu li a{background:black;color:#fff;display:block;line-height:19px;bottom: 0; margin:0;padding:0;text-align:center;text-decoration:none;}
+		.menu li a:hover, .menu li :hover, .menu ul li:hover a{background: white;color:#FFFFFF;text-decoration:none;}
+		.menu li a.active{background: white;}
+
+		.menu li ul{background:black;display:none; height:auto;border:0px;position:relative;right: 153px;top: -40px; width:150px;z-index:200;/*top:1em;/*left:0;*/text-align: center;border: solid 1px white;}
+		.menu li:hover ul{display:block;}
+		.menu li li {background:  black; display:block;float:none;margin:0px;padding:0px;width:150px;height: 30px;}
+		.menu li:hover li a{background:none;}
+		.menu li ul a{display:block;bottom: 0; font-size:20px;margin:0px;padding:0px;text-align:center;line-height: 30px;}
+		.menu li ul a:hover, .menu li ul li:hover a{background: white;border:0px;color:black;text-decoration:none;}
+		.menu p{clear:left;}
+
+		#bmx {width: 220px;}
+		#surf {width: 220px;}
+		#hiphop {width: 220px;}
+		#skateboard{width: 220px;}
+		#grafiti {width: 220px;}
+		#fashion {width: 220px;}
+
+		#bm1{width: 980px;}
+
+		.box2 {position: absolute;top: 500px;left: 290px;}
+	</style>
+</head>
+<body>
+	<a href="index.html"><img src="logo.png" id="logo"></a>
+ 	<div class="box1"><img src="bm1.png" id="bm1">
+ 	<div class="box2">
+ 	<iframe width="560" height="315" src="https://www.youtube.com/embed/uTTIcABC0RM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+ </div>
+ 	<div class="menu">
+ 	<ul>
+ 		<li><a href="bm1.html"><img src="bmx.png" id="bmx">
+ 			<ul>
+     			<li><a href="bm1.html">Derivation</a></li>
+     			<li><a href="bm2.html">Colaboration</a></li>
+     			<li><a href="bm3.html">Opposition</a></li>
+    		</ul></li>
+ 		<li><a href="su1.html"><img src="surf.png" id="surf">
+ 			<ul>
+     			<li><a href="su1.html">Derivation</a></li>
+     			<li><a href="su2.html">Colaboration</a></li>
+     			<li><a href="su3.html">Opposition</a></li>
+    		</ul></li>
+ 		<li><a href="hi1.html"><img src="hiphop.png" id="hiphop">
+ 			<ul>
+     			<li><a href="hi1.html">Derivation</a></li>
+     			<li><a href="hi2.html">Colaboration</a></li>
+     			<li><a href="hi3.html">Opposition</a></li>
+    		</ul></li>
+ 		<li><a href="sk1.html"><img src="skateboard.png" id="skateboard">
+ 			<ul>
+     			<li><a href="sk1.html">Derivation</a></li>
+     			<li><a href="sk2.html">Colaboration</a></li>
+     			<li><a href="sk3.html">Opposition</a></li>
+    		</ul></li>
+ 		<li><a href="gr1.html"><img src="grafiti.png" id="grafiti">
+ 			<ul>
+     			<li><a href="gr1.html">Derivation</a></li>
+     			<li><a href="gr2.html">Colaboration</a></li>
+     			<li><a href="gr3.html">Opposition</a></li>
+    		</ul></li>
+ 		<li><a href="fa1.html"><img src="fashion.png" id="fashion">
+ 			<ul>
+     			<li><a href="fa1.html">Derivation</a></li>
+     			<li><a href="fa2.html">Colaboration</a></li>
+     			<li><a href="fa3.html">Opposition</a></li>
+    		</ul></li>
+ 	</ul>
+	</div>
+ 	<img src="copy.png" id="copy">
+</body>
+</html>
