@@ -17,15 +17,21 @@
 		.menu li{float:none;padding:0px;border-bottom: solid 2px white;height:80px;}
 		.menu li:last-child {border-bottom: none;}
 		.menu li a{background:black;color:#fff;display:block;line-height:20px;bottom: 0; margin:0;padding:0;text-align:center;text-decoration:none;}
-		.menu li a:hover, .menu li :hover, .menu ul li:hover a{background: white;color:#FFFFFF;text-decoration:none;}
+		.menu li a:hover, .menu li :hover, .menu ul li:hover a{background-color: #a8a8a8;color:#FFFFFF;text-decoration:none;}
+		.menu li a.current {background-color: white;}
 
 		.menu li ul{background:black;display:none; height:auto;border:0px;position:relative;right: 154px;top: -40px; width:150px;z-index:200;/*top:1em;/*left:0;*/text-align: center;border: solid 2px white;font-family: 'Inter', sans-serif;font-weight: bold;}
 		.menu li:hover ul{display:block;}
 		.menu li li {background:  black; display:block;float:none;margin:0px;padding:0px;width:150px;height: 30px;}
 		.menu li:hover li a{background:none;}
 		.menu li ul a{display:block;bottom: 0; font-size:20px;margin:0px;padding:0px;text-align:center;line-height: 30px;font-family: 'Inter', sans-serif;font-weight: bold;}
-		.menu li ul a:hover, .menu li ul li:hover a{background: white;border:0px;color:black;text-decoration:none;font-family: 'Inter', sans-serif;font-weight: bold;}
+		.menu li ul a:hover, .menu li ul li:hover a{background-color: #a8a8a8;border:0px;color: black; text-decoration:none;font-family: 'Inter', sans-serif;font-weight: bold;}
 		.menu p{clear:left;}
+		.menu li ul a.bm:hover, .menu li ul li.bm:hover a{color:#1f00e1;}
+		.menu li ul a.su:hover, .menu li ul li.su:hover a{color:#53d9d7;}
+		.menu li ul a.sk:hover, .menu li ul li.sk:hover a{color:#ff00bd;}
+		.menu li ul a.gr:hover, .menu li ul li.gr:hover a{color:#b5d822;}
+		.menu li ul a.fa:hover, .menu li ul li.fa:hover a{color:#ff0000;}
 
 		#bmx {width: 220px;}
 		#surf {width: 220px;}
@@ -44,15 +50,15 @@
  	<ul>
  		<li><a href="bm1.html"><img src="bmx.png" id="bmx">
  			<ul>
-     			<li><a href="bm1.html">Derivation</a></li>
-     			<li><a href="bm2.html">Colaboration</a></li>
-     			<li><a href="bm3.html">Opposition</a></li>
+     			<li><a class="bm" href="bm1.html">Derivation</a></li>
+     			<li><a class="bm" href="bm2.html">Colaboration</a></li>
+     			<li><a class="bm" href="bm3.html">Opposition</a></li>
     		</ul></li>
  		<li><a href="su1.html"><img src="surf.png" id="surf">
  			<ul>
-     			<li><a href="su1.html">Derivation</a></li>
-     			<li><a href="su2.html">Colaboration</a></li>
-     			<li><a href="su3.html">Opposition</a></li>
+     			<li><a class="su" href="su1.html">Derivation</a></li>
+     			<li><a class="su" href="su2.html">Colaboration</a></li>
+     			<li><a class="su" href="su3.html">Opposition</a></li>
     		</ul></li>
  		<li><a href="hi1.html"><img src="hiphop.png" id="hiphop">
  			<ul>
@@ -60,23 +66,23 @@
      			<li><a href="hi2.html">Colaboration</a></li>
      			<li><a href="hi3.html">Opposition</a></li>
     		</ul></li>
- 		<li><a href="sk1.html"><img src="skateboard.png" id="skateboard">
+ 		<li><a class="current" href="sk1.html"><img src="skateboard.png" id="skateboard">
  			<ul>
-     			<li><a href="sk1.html">Derivation</a></li>
-     			<li><a href="sk2.html">Colaboration</a></li>
-     			<li><a href="sk3.html">Opposition</a></li>
+     			<li><a class="sk" href="sk1.html">Derivation</a></li>
+     			<li><a class="sk" href="sk2.html">Colaboration</a></li>
+     			<li><a class="sk" href="sk3.html">Opposition</a></li>
     		</ul></li>
  		<li><a href="gr1.html"><img src="grafiti.png" id="grafiti">
  			<ul>
-     			<li><a href="gr1.html">Derivation</a></li>
-     			<li><a href="gr2.html">Colaboration</a></li>
-     			<li><a href="gr3.html">Opposition</a></li>
+     			<li><a class="gr" href="gr1.html">Derivation</a></li>
+     			<li><a class="gr" href="gr2.html">Colaboration</a></li>
+     			<li><a class="gr" href="gr3.html">Opposition</a></li>
     		</ul></li>
- 		<li><a href="fa1.html"><img src="fashion.png" id="fashion">
+ 		<li><a class="current" href="fa1.html"><img src="fashion.png" id="fashion">
  			<ul>
-     			<li><a href="fa1.html">Derivation</a></li>
-     			<li><a href="fa2.html">Colaboration</a></li>
-     			<li><a href="fa3.html">Opposition</a></li>
+     			<li><a class="fa" href="fa1.html">Derivation</a></li>
+     			<li><a class="fa" href="fa2.html">Colaboration</a></li>
+     			<li><a class="fa" href="fa3.html">Opposition</a></li>
     		</ul></li>
  	</ul>
 	</div>
